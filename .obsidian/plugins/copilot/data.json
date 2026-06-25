@@ -1,5 +1,5 @@
 {
-  "userId": "7eb61bfa-b15a-4e78-81ec-d03f91919792",
+  "userId": "fe61ba1b-24a1-4d1e-9262-e526031fc586",
   "isPlusUser": false,
   "plusLicenseKey": "",
   "openAIApiKey": "",
@@ -100,10 +100,11 @@
       "apiKey": ""
     },
     {
-      "name": "claude-sonnet-4-6",
-      "provider": "anthropic",
+      "name": "google/gemini-3.5-flash",
+      "provider": "openrouterai",
       "enabled": false,
       "isBuiltIn": true,
+      "projectEnabled": true,
       "capabilities": [
         "reasoning",
         "vision"
@@ -111,31 +112,10 @@
       "apiKey": ""
     },
     {
-      "name": "deepseek-v4-flash",
-      "provider": "deepseek",
-      "enabled": true,
-      "isBuiltIn": true,
-      "apiKey": "",
-      "enableCors": true
-    },
-    {
-      "name": "deepseek-v4-pro",
-      "provider": "deepseek",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "reasoning"
-      ],
-      "apiKey": "",
-      "enableCors": true,
-      "baseUrl": ""
-    },
-    {
-      "name": "google/gemini-3.5-flash",
-      "provider": "openrouterai",
+      "name": "claude-sonnet-4-6",
+      "provider": "anthropic",
       "enabled": false,
       "isBuiltIn": true,
-      "projectEnabled": true,
       "capabilities": [
         "reasoning",
         "vision"
@@ -314,6 +294,25 @@
         "vision"
       ],
       "apiKey": ""
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "provider": "deepseek",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ],
+      "apiKey": "",
+      "enableCors": true
+    },
+    {
+      "name": "deepseek-v4-flash",
+      "provider": "deepseek",
+      "enabled": true,
+      "isBuiltIn": true,
+      "apiKey": "",
+      "enableCors": true
     },
     {
       "name": "deepseek-ai/DeepSeek-V3",
@@ -509,5 +508,5 @@
   "autoCompactThreshold": 128000,
   "convertedDocOutputFolder": "",
   "_keychainOnly": true,
-  "_keychainVaultId": "dc831ba9"
+  "_keychainVaultId": "0d94750b"
 }
